@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +6,5 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./app.component.less'],
 })
 export class AppComponent {
-  title = 'PJCoatings';
-  faBars = faBars;
+  title = 'P. J. Coatings';
 }
