@@ -4,16 +4,12 @@ import { ContactComponent } from './contact/contact.component';
 
 export const appRoutes: Routes = [
   {
-    path: 'about',
+    path: '',
     component: AboutComponent,
+    pathMatch: 'full',
   },
   {
     path: 'contact',
     component: ContactComponent,
-  },
-  {
-    path: '',
-    redirectTo: '/about',
-    pathMatch: 'full',
   },
 ];
