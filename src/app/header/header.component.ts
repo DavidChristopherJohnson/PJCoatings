@@ -8,4 +8,9 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 })
 export class HeaderComponent {
   faBars = faBars;
+  showMenu: boolean = false;
+
+  navToggleMobClick() {
+    this.showMenu = !this.showMenu;
+  }
 }

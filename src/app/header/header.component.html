@@ -1,9 +1,12 @@
 <header class="siteHeader">
-  <div class="navToggleMob">
-    <fa-icon [icon]="faBars"></fa-icon>
+  <div class="mainHeader">
+    <div class="navToggleMob" (click)="navToggleMobClick()">
+      <fa-icon [icon]="faBars"></fa-icon>
+    </div>
+    <div class="title">
+      <img class="logo" src="../assets/images/Logo.jpg" />
+    </div>
+    <social-media-bar></social-media-bar>
   </div>
-  <div class="title">
-    <img class="logo" src="../assets/images/Logo.jpg" />
-  </div>
-  <social-media-bar></social-media-bar>
+  <app-menu [show]="showMenu"></app-menu>
 </header>

@@ -1,5 +1,5 @@
-<div class="menu">
-  <div active>home</div>
+<div class="menu" [hidden]="!show">
+  <div active [routerLink]="['']">home</div>
   <hr />
-  <div>Contact</div>
+  <div [routerLink]="['/contact']">Contact</div>
 </div>
