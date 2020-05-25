@@ -13,6 +13,7 @@ import { appRoutes } from './routes';
 import { MenuComponent } from './menu/menu.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { RequestCallbackComponent } from './request-callback/request-callback.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     MenuComponent,
     GalleryComponent,
     TestimonialsComponent,
+    RequestCallbackComponent,
   ],
   imports: [
     BrowserModule,
