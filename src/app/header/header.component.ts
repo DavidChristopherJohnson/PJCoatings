@@ -13,4 +13,8 @@ export class HeaderComponent {
   navToggleMobClick() {
     this.showMenu = !this.showMenu;
   }
+
+  hideMenu() {
+    this.showMenu = false;
+  }
 }

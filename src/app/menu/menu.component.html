@@ -1,5 +1,19 @@
 <div class="menu" [hidden]="!show">
-  <div active [routerLink]="['']">home</div>
+  <div
+    [routerLink]="['']"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+    (click)="onMenuItemClick()"
+  >
+    home
+  </div>
   <hr />
-  <div [routerLink]="['/contact']">Contact</div>
+  <div
+    [routerLink]="['/contact']"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+    (click)="onMenuItemClick()"
+  >
+    Contact
+  </div>
 </div>

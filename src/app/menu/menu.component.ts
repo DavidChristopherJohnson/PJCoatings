@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-menu',
@@ -6,5 +6,10 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./menu.component.less'],
 })
 export class MenuComponent {
-  @Input() show: boolean = true;
+  @Input() show: boolean;
+  @Output() hideMenu: any = new EventEmitter();
+
+  onMenuItemClick() {
+    this.hideMenu.emit();
+  }
 }
