@@ -1,5 +1,6 @@
 <div class="menu" [hidden]="!show">
   <div
+    class="menu-link"
     [routerLink]="['']"
     routerLinkActive="active"
     [routerLinkActiveOptions]="{ exact: true }"
@@ -9,6 +10,27 @@
   </div>
   <hr />
   <div
+    class="menu-link"
+    [routerLink]="['/testimonials']"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+    (click)="onMenuItemClick()"
+  >
+    Testimonials
+  </div>
+  <hr />
+  <div
+    class="menu-link"
+    [routerLink]="['/gallery']"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+    (click)="onMenuItemClick()"
+  >
+    Gallery
+  </div>
+  <hr />
+  <div
+    class="menu-link"
     [routerLink]="['/contact']"
     routerLinkActive="active"
     [routerLinkActiveOptions]="{ exact: true }"
