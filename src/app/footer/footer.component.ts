@@ -9,6 +9,6 @@ export class FooterComponent {
   copyText = () => {
     let year: string = new Date(Date.now()).getFullYear().toString();
 
-    return `©${year} P. J. Coatings Ltd`;
+    return `© ${year} P. J. Coatings Ltd`;
   };
 }
