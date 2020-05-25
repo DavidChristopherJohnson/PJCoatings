@@ -15,6 +15,13 @@
   flex-grow: 1;
 }
 
+:host /deep/ router-outlet + * {
+  display: flex;
+  flex-grow: 1;
+  padding: 1rem;
+  background-color: #ccc;
+}
+
 .footer-component {
   display: flex;
   flex-direction: row-reverse;
