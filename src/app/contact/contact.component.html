@@ -1,7 +1,18 @@
 <div class="container">
-  <request-callback></request-callback>
-  <br />
-  <div>
-    <span>Contact form component here</span>
+  <div class="contact-type">
+    <span class="label">
+      Address:
+    </span>
+    <address></address>
+  </div>
+  <div class="contact-type">
+    <span class="label">Email: </span>
+    <span class="value">pjcoatings@gmail.com</span>
+  </div>
+  <div class="contact-type facebook">
+    <social-media-button
+      [icon]="faFacebookSquare"
+      [iconColour]="facebookIconColour"
+    ></social-media-button>
   </div>
 </div>

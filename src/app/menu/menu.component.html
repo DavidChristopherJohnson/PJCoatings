@@ -8,7 +8,7 @@
   >
     Home
   </div>
-  <hr />
+  <!-- <hr />
   <div
     class="menu-link"
     [routerLink]="['/testimonials']"
@@ -27,6 +27,16 @@
     (click)="onMenuItemClick()"
   >
     Gallery
+  </div> -->
+  <hr />
+  <div
+    class="menu-link"
+    [routerLink]="['/about']"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+    (click)="onMenuItemClick()"
+  >
+    About
   </div>
   <hr />
   <div
