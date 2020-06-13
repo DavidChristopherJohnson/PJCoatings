@@ -25,6 +25,24 @@
 .footer-component {
   display: flex;
   flex-direction: row-reverse;
-  min-height: 1.5rem;
+  min-height: 2rem;
   background-color: black;
+}
+
+
+@media only screen and (min-width: 600px){
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #777;
+  }
+  
+  .content{
+    width: 100%;
+    max-width: 50rem;
+    align-self: center;
+  }
+
+
 }

@@ -15,6 +15,7 @@
   div {
     padding-left: 1rem;
     padding: 0.5rem;
+    padding-right: 0;
   }
 
   .menu-link {
@@ -27,4 +28,21 @@
 
 [hidden] {
   display: none;
+}
+
+@media only screen and (min-width: 600px)
+{
+  .menu{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+
+    hr {
+      display: none !important;
+    }
+
+    .menu-link{
+      padding-right: 0.5rem
+    }
+  }
 }

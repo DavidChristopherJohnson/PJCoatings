@@ -1,5 +1,5 @@
 .mainHeader {
-  width: 100vw;
+  //width: 100vw;
   display: flex;
   flex-direction: row;
   background-color: #000;
@@ -15,6 +15,7 @@
     padding: 1rem;
     background-color: #bbb;
     color: #333;
+    cursor: pointer;
   }
 
   .title {
@@ -29,6 +30,16 @@
       max-height: 3rem;
       padding: 0;
       margin: 0;
+      cursor: pointer;
     }
   }
+}
+
+@media only screen and (min-width: 600px)
+{
+
+  .navToggleMob {
+    display: none !important;
+  }
+
 }
