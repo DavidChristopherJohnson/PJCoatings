@@ -17,6 +17,8 @@ import { HomeComponent } from './home/home.component';
 import { AddressComponent } from './address/address.component';
 import { ContactComponent } from './contact/contact.component';
 import { SocialMediaButtonComponent } from './social-media-button/social-media-button.component';
+import { BeforeAfterComponent } from './before-after/before-after.component';
+import { BeforeAfterImg } from './before-after-img/before-after-img.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { SocialMediaButtonComponent } from './social-media-button/social-media-b
     RequestCallbackComponent,
     HomeComponent,
     SocialMediaButtonComponent,
+    BeforeAfterComponent,
+    BeforeAfterImg
   ],
   imports: [
     BrowserModule,
